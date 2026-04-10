@@ -2,7 +2,7 @@ import unittest
 
 # Function with intentional bug
 def add(a, b):
-    return a - b   # ❌ BUG (should be +)
+    return a + b   # ❌ BUG (should be +)
 
 # Test cases
 class TestCalculator(unittest.TestCase):
